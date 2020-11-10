@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background: #e7e3e0;
+  background: #65cff8;
   text-align: center;
   font-weight: 100;
   font-size: 20px;
@@ -12,7 +12,7 @@ body {
 
 h1 {
   text-align: center;
-  color: #9e948b;
+  color: #000000;
   padding: 2rem 15rem;
   font-weight: lighter;
 }
@@ -20,15 +20,16 @@ h1 {
 input {
   background-color: transparent;
   border: none;
-  border-bottom: 1.5px solid #9e948b;
+  border-bottom: 1.5px solid #080808;
   width: 400px;
-  color: #9e948b;
+  color: #000000;
   font-size: 18px;
   margin-bottom: 3%;
+  font-family: 'Itim', cursive;
 }
 
 input::placeholder{
-  color: #9e948b;
+  color: #000000;
 }
 
 input:focus {
@@ -44,9 +45,9 @@ input:focus {
 
 .photo {
   width: 60%;
-  background-color:#9e948b;
+  background-color:#ffffff;
   border-radius: 5px;
-  border: 1px solid rgba(0, 0, 0, 0.0975);
+  border: 1px solid rgba(0, 0, 0, 0.098);
   max-width: 400px;
   margin-bottom: 40px;
 }
@@ -86,7 +87,7 @@ input:focus {
   margin-bottom: 10px;
   font-size: 18px;
   text-align: left;
-  color: #e7e3e0;
+  color: #000000;
 }
 
 .photo__icon:first-child {
@@ -99,13 +100,13 @@ input:focus {
   display: block;
   text-align: left;
   /*margin-left: 10px;*/
-  color: #e7e3e0;
+  color: #000000;
 }
 
 .photo__comment {
   margin-bottom: 10px;
   text-align: left;
-  color: #e7e3e0;
+  color: #000000;
 }
 
 .photo__comment-author {
