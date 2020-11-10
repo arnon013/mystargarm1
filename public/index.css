@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #e7e3e0;
+  text-align: center;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #9e948b;
+  padding: 2rem 15rem;
+  font-weight: lighter;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1.5px solid #9e948b;
+  width: 400px;
+  color: #9e948b;
+  font-size: 18px;
+  margin-bottom: 3%;
+}
+
+input::placeholder{
+  color: #9e948b;
+}
+
+input:focus {
+  outline: none;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo {
+  width: 60%;
+  background-color:#9e948b;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.0975);
+  max-width: 400px;
+  margin-bottom: 40px;
+}
+
+
+.photo__header {
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
+}
+
+.photo__avatar {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.photo__username {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.photo__file {
+  max-width: 100%;
+  height: 400px;
+  width: 400px;
+}
+
+.photo__info {
+  padding: 20px 20px 0 20px;
+}
+
+.photo__icons {
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-align: left;
+  color: #e7e3e0;
+}
+
+.photo__icon:first-child {
+  margin-right: 10px;
+}
+
+.photo__likes {
+  font-weight: 600;
+  margin-bottom: 10px;
+  display: block;
+  text-align: left;
+  /*margin-left: 10px;*/
+  color: #e7e3e0;
+}
+
+.photo__comment {
+  margin-bottom: 10px;
+  text-align: left;
+  color: #e7e3e0;
+}
+
+.photo__comment-author {
+  font-weight: 600;
+  margin-right: 5px;
+  text-align: left;
+}
+
+.photo__time-ago {
+  color: #999;
+  text-transform: uppercase;
+  font-size: 10px;
+  padding-bottom: 10px;
+  display: block;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
+}
+
+.photo__add-comment-container {
+  position: relative;
+}
+
+.photo__add-comment-container i {
+  position: absolute;
+  top: 17px;
+  right: 0;
+}
+
+.photo__add-comment {
+  width: 97%;
+  border: 0;
+  resize: none;
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+.photo__add-comment:focus {
+  outline: none;
+}
+
+.heart-red {
+  color: red;
+}
+
+a{
+  text-decoration: none;
+  color:#49443f;
+}

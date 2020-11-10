@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#65cff8;
+}
+
+.img-profile img{
+    border-radius: 50%;
+    border: 2px solid #000000;
+    margin-left: 20%;
+}
+
+.hau-profile h1{
+    font-size: 50px;
+    margin-left: 42%;
+}
+
+.name_profile2{
+    margin-left: 20%;
+}
+
+.followerbox{
+    display: flex;
+    margin-left: 55%;
+}
+
+.numpost{
+    margin-left: 20px;
+    text-align: center;
+    margin-top: -34%;
+}
+
+.numpost h5{
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+.numpost p{
+    font-size: 28px;
+    font-weight: lighter;
+    margin-top: -20%;
+}
+
+.biobox{
+    width: 350px;
+    margin-left: 20%;
+    margin-top: -1%;
+}
+
+.photo{
+    content: "";
+  display: table;
+  clear: both;
+  margin-top: -10%;
+  margin-left: 5%;
+}
+
+.photo-colum{
+  float: left;
+  width: 23%;
+  padding: 10px;
+  height: 300px;
+  margin-top: 15%;
+}
+
+.photo-card{
+    background-color:#ffffff;
+    width: 300px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 30px #0000004f;
+    color: #050505;
+}
+
+.photo-card img{
+    width: 300px;
+    height: 300px;
+}
+
+.photo__icon{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.photo__icon i{
+    margin-left: 5px;
+}
+
+.photo-card h1{
+    font-size: 16px;
+    margin-left: 15px;
+}
